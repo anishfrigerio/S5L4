@@ -1,0 +1,130 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.btn {
+    background-color: #5f4642;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #9f8374;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    background-color: #e8ac90;
+    min-width: 200px;
+    overflow: auto;
+}
+
+.menu a {
+    text-align: center;
+    color: #425F57;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#dropdown a:hover {
+    background-color: #ff918d;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.my-button {
+    background-color: #9fa84d;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+  
+
+}
+
+#buttons{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.my-button:hover {
+    background-color: #dae74b;
+}
+
+
+#buttons p {
+    font-size: 1.5em;
+}
+
+.mostra {
+    display: block;
+}
+
+#display {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+}
+
+.mystyle {
+    font-size: 80px;
+}
+
+.change {
+    color:#aa2e04;
+}
+
+
+#font-size {
+    text-align: center;
+    color: #425f57;
+}
+
+
+
+/* ----------------------------------------------------------------------- */
+
+#list {
+    margin-top: -100px;
+    float: inline-start;
+}
+
+#list h2 {
+    color: #252284;
+}
+
+#list ul {
+    color: #5f4242;
+}
+
+ul i {
+    color: #9f7474;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.4;
+    color: #aa2e04;
+}
+
+.selected {
+    color: #8e88ab;
+}

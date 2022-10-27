@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout di pagina interattiva</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <section id="dropdown">
+        <button class="btn" onclick="toggleMenu()">Apri menu</button>
+        <div id="menu" class="menu">
+                <a href="#Home">Home</a>
+                <a href="#about">Chi sono</a>
+                <a href="#contatti">Contatti</a>
+        </div>
+    </section>
+
+    <section id="buttons">
+        <div class="ridimensiona">
+            <button class="my-button" id="btn-small">SMALL FONT</button>
+            <button class="my-button" id="btn-big">BIG FONT</button>
+        </div>
+        
+        
+        <div class="ridimensiona">
+            <button class="my-button" id="btn-color">COLOR</button>
+        </div>
+        
+        <div class="ridimensiona">
+            <button class="my-button" id="btn3">UPPERCASE</button>
+            <button class="my-button" id="btn6">lowercase</button>
+        </div>
+        <div class="ridimensiona">
+            <button class="my-button" id="btn4">Hide</button>
+            <button class="my-button" id="btn5">Show</button>
+        </div>
+        
+    </section>
+
+    <section id="display">
+        <h1 class="change"> Pagine Interattiva</h1>
+    </section>
+
+    <section id="list">
+        <h2>LISTA IMPEGNI GIORNALIERI</h2>
+        <ul id="myList">
+            <li>lavare la macchina</li>
+            <li>andare dal dentista</li>
+            <li>palestra</li>
+            <li>spesa</li>
+        </ul>
+    </section>
+    
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
